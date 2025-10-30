@@ -4,7 +4,7 @@ export default function AboutWhispr() {
     
   return (
     <div>Q&A page</div>
-
+   
   )
 }
 
@@ -56,4 +56,4 @@ briefly what are the Tos?
 
 
 
-/*
+/*/
