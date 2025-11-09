@@ -9,9 +9,20 @@ export default function LoginScreen() {
       
       {/*header goes here*/}
       <div className ='flex justify-between w-full px-10 py-5 lg:justify-center'>
-        <div className ='text-xl text-amber-400'>LOGO</div>
-        <div className ='text-xl lg:absolute lg:right-8'><ThemeToggle/></div>
-      </div>
+                  <div className =''>
+                    <img
+                      src='Images/whisprPhone.png'
+                      alt = 'Whispr'
+                      className='block lg:hidden w-24'
+                    />
+                    <img
+                      src='Images/whisprDesktop.png'
+                      alt = 'Whispr'
+                      className='hidden lg:block w-32'
+                    />
+                  </div>
+                  <div className ='text-xl lg:absolute lg:right-8 py-7 lg:py-5'><ThemeToggle/></div>
+                </div>
       {/* END END END **header (logo and toggle(dark light)) form ** END END END*/}
       <div className='flex flex-col items-start w-full max-w-sm bg-secondary shadow-md rounded-2xl p-6 lg:p-10'>
         
